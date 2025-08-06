@@ -38,7 +38,7 @@ Two custom datasets were created:
 
 Datasets were annotated and preprocessed for optimal performance using augmentation techniques and bounding box labeling.
 
-Link for the Dataset: [Click Here!](https://app.roboflow.com/realistic-datasets-for-smart-fridge-applications)
+**Link for the Dataset:** [Click Here!](https://app.roboflow.com/realistic-datasets-for-smart-fridge-applications)
 
 ---
 
