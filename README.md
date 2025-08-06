@@ -30,25 +30,15 @@ Both models were trained on **custom-curated datasets**, collected and augmented
 
 Two custom datasets were created:
 
-1. **Fruit Classification Dataset**  
+1. **Fruit Recognition Dataset**  
    - Fruits: Tomato, Apple, Banana, Pear, Peach, Pomegranate, etc.
 
-2. **Tomato Ripeness Dataset**  
+2. **Tomato Ripeness Detection Dataset**  
    - Labels: `Unripe`, `Half-ripe`, `Ripe`, `Overripe`
 
 Datasets were annotated and preprocessed for optimal performance using augmentation techniques and bounding box labeling.
 
----
-
-## 🧪 Evaluation
-
-The models were evaluated based on:
-- Precision
-- Recall
-- F1-Score
-- Execution Speed
-
-Results demonstrate high performance in fruit identification and tomato ripeness prediction.
+Link for the Dataset: [Click Here!](https://app.roboflow.com/realistic-datasets-for-smart-fridge-applications)
 
 ---
 
@@ -69,12 +59,3 @@ The smart fridge prototype performs:
 - Inventory management recommendations
 
 ---
-
-## 🔍 Sample Use Case
-
-```bash
-# Run YOLOv11 for fruit detection
-python run_yolo.py --image fridge_sample.jpg
-
-# Classify tomato ripeness
-python predict_ripeness.py --model faster_rcnn --image detected_tomatoes.jpg
