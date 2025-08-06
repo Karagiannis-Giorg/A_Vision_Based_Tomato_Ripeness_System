@@ -31,7 +31,7 @@ Both models were trained on **custom-curated datasets**, collected and augmented
 Two custom datasets were created:
 
 1. **Fruit Recognition Dataset**  
-   - Fruits: Tomato, Apple, Banana, Pear, Peach, Pomegranate, etc.
+   - Fruits: `Apple`, `Banana`, `Lime`, `Orange`, `Pear`, `Peach`, `Pomegranate`, `Tomato`
 
 2. **Tomato Ripeness Detection Dataset**  
    - Labels: `Unripe`, `Half-ripe`, `Ripe`, `Overripe`
